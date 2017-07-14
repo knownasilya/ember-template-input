@@ -1,0 +1,1 @@
+export { default } from 'ember-template-input/components/template-input-field/component';

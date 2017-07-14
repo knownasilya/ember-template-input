@@ -1,0 +1,51 @@
+/* required to keep event to working for outside click for dropdown */
+#root {
+	min-height: 100vh;
+}
+
+.template-input-field {
+  background-color: #efefef;
+  line-height: 1.5;
+}
+
+.template-tag-value-invalid {
+	text-decoration: line-through;
+}
+
+.template-tag {
+	color: tomato;
+  cursor: pointer;
+}
+
+.template-tag:hover {
+	color: indianred;
+}
+
+.tag-select,
+.ember-basic-dropdown-content {
+	background-color: transparent;
+}
+
+.ember-basic-dropdown-content {
+	margin-top: 12px;
+  margin-left: -6px;
+}
+
+.tag-select li {
+  list-style-type: none;
+  padding: 0.2em 0.4em;
+  margin-bottom: 0.25em;
+  background-color: #eee;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.tag-select li:hover {
+	background-color: #ddd;
+}
+
+.tag-select ul {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}

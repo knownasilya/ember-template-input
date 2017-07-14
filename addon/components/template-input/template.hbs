@@ -1,0 +1,21 @@
+{{#basic-dropdown as |dropdown|}}
+	{{template-input-field
+  	tags=options
+  	template=template
+  	uniqueId=dropdown.uniqueId
+    dropdownOpen=dropdown.isOpen
+    closeDropdown=dropdown.actions.close
+  	onShowTags=(action 'openAndSelect' dropdown.actions.open dropdown.actions.close dropdown.actions.reposition)
+    onTagClick=(action 'openAndSelect' dropdown.actions.open dropdown.actions.close dropdown.actions.reposition)}}
+  {{#dropdown.content}}
+  	<div class='tag-select'>
+      <ul>
+        {{#each options as |tag|}}
+          <li class='template-tag' onclick={{action 'setTag' tag}}>
+            {{tag}}
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  {{/dropdown.content}}
+{{/basic-dropdown}}
