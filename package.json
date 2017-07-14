@@ -1,17 +1,21 @@
 {
   "name": "ember-template-input",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember input component for easily building template strings from an available list of options",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "template",
+    "input",
+    "tags",
+    "component"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Ilya Radchenko",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/knownasilya/ember-template-input",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
