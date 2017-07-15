@@ -20,6 +20,7 @@
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each",
+    "deploy": "ember deploy production",
     "release": "standard-version"
   },
   "dependencies": {
