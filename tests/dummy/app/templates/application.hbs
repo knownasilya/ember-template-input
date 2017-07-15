@@ -1,8 +1,7 @@
-<h3 id="title">ember-template-input</h3>
-
-{{outlet}}
-
-{{template-input
-  options=options
-  template=template
-  onChange=(action (mut template)) }}
+{{#origami-app title='ember-template-input'
+  slogan='An elegent way to build up template strings'
+  navigation=(array
+    (hash route='index' name='Home')
+  )}}
+  {{outlet}}
+{{/origami-app}}
