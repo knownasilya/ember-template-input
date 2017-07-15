@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/knownasilya/ember-template-input/compare/v0.1.0...v0.1.1) (2017-07-15)
+
+
+### Bug Fixes
+
+* **build:** call super for included for nested support ([2052961](https://github.com/knownasilya/ember-template-input/commit/2052961))
+* **demo:** add paper-origami and use for demo ([a25a536](https://github.com/knownasilya/ember-template-input/commit/a25a536))
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2017-07-14)
 
