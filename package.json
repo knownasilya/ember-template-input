@@ -52,7 +52,7 @@
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.14.0",
     "loader.js": "^4.2.3",
-    "paper-origami": "^0.1.4",
+    "paper-origami": "^0.2.0",
     "standard-version": "^4.2.0"
   },
   "engines": {
