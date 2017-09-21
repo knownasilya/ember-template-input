@@ -2,6 +2,12 @@
 
 Ember input component for easily building template strings from an available list of options
 
+```shell
+ember install ember-template-input
+```
+
+_Note: This addon doesn't work with the Grammarly extension enabled._
+
 ## Usage
 
 ```hbs
