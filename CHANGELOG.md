@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.2"></a>
+## [0.1.2](https://github.com/knownasilya/ember-template-input/compare/v0.1.1...v0.1.2) (2017-09-21)
+
+
+### Bug Fixes
+
+* **demo:** add getting started page instead of everything on the index page ([b6b4b97](https://github.com/knownasilya/ember-template-input/commit/b6b4b97))
+* **demo:** Update origami version ([1cd94ab](https://github.com/knownasilya/ember-template-input/commit/1cd94ab))
+* add missed imports ([e1654fb](https://github.com/knownasilya/ember-template-input/commit/e1654fb))
+
+
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/knownasilya/ember-template-input/compare/v0.1.0...v0.1.1) (2017-07-15)
 
