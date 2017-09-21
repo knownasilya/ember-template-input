@@ -6,6 +6,8 @@ module.exports = {
 
   included() {
     this._super.included.apply(this, arguments);
+    this.import('vendor/mobiledoc-kit.js');
+    this.import('vendor/mobiledoc-kit.map');
     this.import('vendor/template-input.css');
   }
 };
