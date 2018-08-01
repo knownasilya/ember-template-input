@@ -25,28 +25,33 @@ _Note: This addon doesn't work with the Grammarly extension enabled._
   exist in the `options` array.
 - `onChange` is an action that returns the updated template.
 
-## Installation
+### Installation
 
 * `git clone <repository-url>` this repository
 * `cd ember-template-input`
 * `npm install`
 
-## Running
+### Linting
+
+* `npm run lint:js`
+* `npm run lint:js -- --fix`
+
+### Running tests
+
+* `ember test` – Runs the test suite on the current Ember version
+* `ember test --server` – Runs the test suite in "watch mode"
+* `ember try:each` – Runs the test suite against multiple Ember versions
+
+### Running the dummy application
 
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
+* Visit the dummy application at [http://localhost:4200](http://localhost:4200).
 
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
 
 [npm-badge]: https://img.shields.io/npm/v/ember-template-input.svg
 [npm-badge-url]: https://www.npmjs.com/package/ember-template-input
@@ -54,3 +59,4 @@ For more information on using ember-cli, visit [https://ember-cli.com/](https://
 [travis-badge-url]: https://travis-ci.org/knownasilya/ember-template-input
 [ember-observer-badge]: http://emberobserver.com/badges/ember-template-input.svg
 [ember-observer-url]: http://emberobserver.com/addons/ember-template-input
+
