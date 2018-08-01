@@ -1,8 +1,9 @@
-import Ember from 'ember';
+import { defer } from 'rsvp';
+import Component from '@ember/component';
 import layout from './template';
 
 
-export default Ember.Component.extend({
+export default Component.extend({
   layout,
 
   classNames: ['template-input'],
@@ -11,7 +12,7 @@ export default Ember.Component.extend({
     openAndSelect(open, close, reposition) {
     	open();
       reposition();
-      let defer = Ember.RSVP.defer();
+      let defer = defer();
       this.set('defer', defer);
       return defer.promise.then((tag) => {
         close();

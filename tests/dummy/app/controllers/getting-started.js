@@ -1,6 +1,6 @@
-import Ember from 'ember';
+import Controller from '@ember/controller';
 
-export default Ember.Controller.extend({
+export default Controller.extend({
   options: ['name', 'address', 'email'],
   template: `Hi, I'm {name} and I live at {address}`
 });
